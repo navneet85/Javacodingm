@@ -5,6 +5,7 @@ public class BasicString {
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
         System.out.print(s);
+        System.out.print(s);
         sc.close();
     }  
 }
