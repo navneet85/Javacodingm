@@ -9,7 +9,7 @@ public class InsertionSort {
                 arr[prev+1]=arr[prev];
                 prev--;
             }
-        arr[prev+1]=curr;
+        arr[prev+1]=curr; 
         }
     }
     public static void main(String[] args) {
