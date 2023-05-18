@@ -36,6 +36,9 @@ public class MergedSort {
         return merge(newLeft,newRight);
     }
     public static Node merge(Node left,Node right){
+       //we are passing two heads
+       //because we are declaring new linked list
+       //such that we cant change our original merged ll
        Node mergedll=new Node(-1);
        Node temp=mergedll;
        while(left!=null&&right!=null){

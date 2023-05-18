@@ -12,6 +12,7 @@ public class BasicOpern {
     public static Node head;
     public static Node tail;
     public static int size;
+    
     public void addStart(int data){
         //create new Node
         Node node1=new Node(data);

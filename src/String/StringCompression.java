@@ -2,7 +2,7 @@ package String;
 
 public class StringCompression {
     public static void main(String[] args) {
-        String s="aaabbccdd";
+        String s="aaabbccddaad";
         StringBuffer sb=new StringBuffer();
         for(int i=0;i<s.length();i++){
             Integer count=1;

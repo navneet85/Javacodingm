@@ -1,6 +1,7 @@
 package Stack;
 import java.util.Stack;
 public class NextGreaterElement {
+    //complexity=o(n)
     public static void nextGreater(int arr[]){
         Stack<Integer> s=new Stack<>();
         int nextgreater[]=new int[arr.length];

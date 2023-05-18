@@ -3,7 +3,7 @@ package Oops;
 //dynamic polymorphism
 public class MethodOverRiding {
     public static void main(String[] args) {
-        Deer d1=new Deer();
+        Deer d1=new Animal();
         d1.eats();
     }
 }

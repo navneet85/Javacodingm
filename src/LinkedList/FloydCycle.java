@@ -32,7 +32,11 @@ public class FloydCycle {
            tempNode=tempNode.next;
         }
     };
+    //yha se likho
     static boolean cycle(){
+        //we are using slow fast approach if slow will move one step fast will move 2 step
+        //we can call cycle from main
+        //we can declare it in main
         Node slow=head;
         Node fast=head;
         while(fast!=null&& fast.next!=null){
@@ -44,6 +48,7 @@ public class FloydCycle {
         }
         return false;
     }
+    //yhi tk bs
     public static void removeCycle(){
         Node slow=head;
         Node fast=head;
