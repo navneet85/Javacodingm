@@ -40,3 +40,18 @@ public class Basic2 {
         }
     }
 }
+
+
+function* createPaginator1(pageSize, items){
+  let p= items.length/pageSize;
+  let q=0;
+  while(p>=0){
+     yield items.slice(q,q+pageSize);
+     q=q+pageSize;
+     p--;
+  }
+}
+
+function createPaginator(pageSize, items){
+    return createPaginator1(pageSize, items);
+}
