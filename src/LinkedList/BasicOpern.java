@@ -26,6 +26,7 @@ public class BasicOpern {
         //head=new Node
         head=node1;
     }
+    //yhi tak likhna iske bd jaha se bolengr wha se
     public void addEnd(int data){
         //create new Node
         Node node=new Node(data);
@@ -114,6 +115,7 @@ public class BasicOpern {
     public int recursiveSearch(int key){
         return helper(head,key);
     }
+    //yha se line no 119 se 125
     public void display(){
         Node tempNode=head;
         while(tempNode!=null){
@@ -121,6 +123,7 @@ public class BasicOpern {
             tempNode=tempNode.next;
         }
     }
+    //yhi tk
     public void reverse(){
         Node prev=null;
         Node curr=tail=head;

@@ -1,6 +1,6 @@
 package Queue;
 
-import java.util.*;;
+import java.util.*;
 
 public class QueueUsingTwoStacks {
     static class Stack{
