@@ -2,7 +2,7 @@ package Arrays;
 //import java.util.*;
 public class TrappingRainWater {
     public static void main(String[] args) {
-        int height[]={4,2,0,6,3,2,5};
+        int height[]={1,8,6,2,5,4,8,3,7};
         int waterlevel[]=new int[height.length];
         waterlevel[0]=waterlevel[height.length-1]=0;
         int sum=0;

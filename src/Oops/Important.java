@@ -31,9 +31,9 @@ class Car extends Vehicle{
 }
 public class Important {
     public static void main(String[] args) {
-        Car c=new Car();
-        c.print();
-        c.print1();
+        // Car c=new Car();
+        // c.print();
+        // c.print1();
         Vehicle v=new Car();
         v.print();
         //v.print1();it will give error

@@ -64,6 +64,7 @@ public class MergedSort {
         temp=temp.next;
       }
       return mergedll.next;
+      //time complexity=o(m+n)
     }
     public void addFirst(int data){
         //create new Node

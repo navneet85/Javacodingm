@@ -5,6 +5,8 @@ class Animal{
     }
 }
 class Horse extends Animal{
+    
+
     Horse(){
         super();
         System.out.println("horse Constructor called");

@@ -1,9 +1,9 @@
 package Oops;
 abstract class Animal{
-    String color;
-    Animal(){
-        this.color="Brown";
-    }
+    // String color;
+    // Animal(){
+    //     this.color="Brown";
+    // }
     void eats(){
        System.out.println("Animal eats");
     }

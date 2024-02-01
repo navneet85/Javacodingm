@@ -1,6 +1,5 @@
 package HashMap;
-
-import java.util.TreeMap;
+import java.util.*;
 
 public class TreeMapp {
     public static void main(String[] args) {
@@ -8,6 +7,6 @@ public class TreeMapp {
         tmp.put("India",20);
         tmp.put("China",30);
         tmp.put("America", 10);
-        System.out.println(tmp);
+        System.out.println(tmp.get("India"));
     }
 }
